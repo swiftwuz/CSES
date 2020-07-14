@@ -1,3 +1,6 @@
+# Weird Algorithm
+
+
 def weird():
     n = int(input())
     while n != 1:
