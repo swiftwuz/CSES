@@ -2,14 +2,14 @@
 
 
 def weird():
-    n = int(input())
-    while n != 1:
-        print(n, '', end='')
-        if n % 2 == 0:
-            n = (n//2)
-        elif n % 2 == 1:
-            n = (n * 3) + 1
-    return n
+    integer = int(input())
+    while integer != 1:
+        print(integer, '', end='')
+        if integer % 2 == 0:
+            integer = (integer//2)
+        elif integer % 2 == 1:
+            integer = (integer * 3) + 1
+    return integer
 
 
 print(weird())
