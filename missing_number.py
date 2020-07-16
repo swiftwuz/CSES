@@ -7,5 +7,6 @@ try:
         return result
 
     print(missing_number())
+
 except EOFError as e:
     print(end="")
